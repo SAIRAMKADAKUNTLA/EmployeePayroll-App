@@ -47,6 +47,7 @@ header{
     
 }
 .form{
+    padding-top: 20px;
     width: 50%;
     padding: 44px 60px;
     background: white;
@@ -107,5 +108,10 @@ label{
     width:40px;
     border-radius: 50%;
     margin-left: 12px;
+}
+.salary-output{
+    display: flex;
+    flex-direction:row;
+    align-items: flex-end;
 }
 *{box-sizing: border-box;}
