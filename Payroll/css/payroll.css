@@ -10,7 +10,6 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: center;
     border: 0px solid black;
 }
 .logoContent{
@@ -38,6 +37,7 @@ header{
     font-weight: bold;
 }
 .form-content{
+    padding: 40px 0px 40px;
     display: flex;
     background-color:#CCCCCC;
     justify-content: center;
@@ -47,7 +47,6 @@ header{
     
 }
 .form{
-    padding-top: 20px;
     width: 50%;
     padding: 44px 60px;
     background: white;
@@ -109,9 +108,12 @@ label{
     border-radius: 50%;
     margin-left: 12px;
 }
-.salary-output{
-    display: flex;
-    flex-direction:row;
-    align-items: flex-end;
+select{
+    padding: 12px;
+    border: 1px solid #99CCCC;
+    border-radius: 4px;
+    letter-spacing: 0;
+    color: #336699;
 }
+
 *{box-sizing: border-box;}
