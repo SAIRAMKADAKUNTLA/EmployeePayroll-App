@@ -115,6 +115,9 @@ select{
     letter-spacing: 0;
     color: #336699;
 }
+.salary-output{
+    color:#336699 ;
+}
 .button-parent{
     display: flex;
     margin-top: 20px;

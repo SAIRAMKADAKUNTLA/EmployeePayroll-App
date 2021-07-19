@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="..\assests\1.png">
     <link rel="stylesheet" href="..\css\payroll.css">
+    <script defer src="..\js\payroll.js"></script>
     <title>Payroll</title>
 </head>
 <body>
@@ -19,7 +20,7 @@
         </div>
     </header>
     <div class="form-content">
-        <form class="form" action="#" onsubmit="save();return false">
+        <form class="form" action="#" onsubmit="save(event);return false">
             <div class="form-head">Employee Payroll Form</div>
             <div class="row-content">
                 <label class="label-text"
@@ -78,7 +79,7 @@
                 <label class="label-text" for="salary">Choose your Salary</label>
                     <input class="input" type="range" id="salary" name="salary"
                     min="200000" max="600000" step="100" value="500000">
-                    <output class="salary-output text" for="salary">500000</output>
+                    <output class="salary-output" for="salary">500000</output>
             </div>
             <div class="row-content">
                 <label class="label-text" for="start date">Start Date</label>
